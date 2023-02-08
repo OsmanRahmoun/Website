@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>div hide practice</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6644d19e3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="container">This is my div</div>
+  <div>
+    <i class="fa-solid fa-bee"></i>
+  </div>
+  <div>
+    <button id="button">Click me</button>
+  </div>
+
+</body>
+<script>
+  const btn = document.querySelector("#button")
+  const container = document.querySelector("#container")
+
+  btn.addEventListener("click", function () {
+    if (container.style.display === "block") {
+      container.style.display = "none";
+    } else {
+      container.style.display = "block";
+    }
+  });
+</script>
+
+</html>

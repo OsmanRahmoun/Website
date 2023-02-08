@@ -1,0 +1,57 @@
+.skills-box {
+  padding-top: 50px;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.skills-icons-border1 {
+  margin-top: 0;
+  height: 400px;
+  width: 1100px;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  margin-bottom: 0;
+}
+
+.skills-icons-border2 {
+  margin-top: 0px;
+  height: 5px;
+  width: 1100px;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  margin-bottom: 0;
+}
+
+.icon1:hover {
+  color: rgb(55, 118, 171);
+}
+
+.icon2:hover {
+  color: purple;
+}
+
+.icon3:hover {
+  color: rgb(247, 223, 30);
+}
+
+.icon4:hover {
+  color: rgb(0, 208, 255);
+}
+
+.icon5:hover {
+  color: #e34c26;
+}

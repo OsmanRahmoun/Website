@@ -1,0 +1,49 @@
+.info-and-skills {
+  padding-top: 290px;
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  height: 500px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.hidden {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  align-content: center;
+  height: fit-content;
+  flex: 350px;
+}
+
+.subsection {
+  font-family: "Source Sans Pro";
+  font-weight: 800;
+  font-size: 55px;
+  word-spacing: 5px;
+  width: 310px;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+.underline {
+  text-decoration: underline solid #413832;
+  margin-top: 30px;
+}
+
+.info2 {
+  font-family: "Fira Sans Condensed";
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

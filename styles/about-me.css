@@ -1,0 +1,46 @@
+.About-me-box {
+  height: 600px;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+
+
+.About-me-info {
+  height: 450px;
+  display: flex;
+  flex: 350px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.About-me-writing {
+  font-family: "Source Sans Pro";
+  font-weight: 800;
+  font-size: 90px;
+}
+
+.About-me-picture {
+  height: 450px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.About-me-finish {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(75, 74, 74);
+}
+
+.Osman-Picture {
+  border-width: 5px;
+  border: solid;
+}
